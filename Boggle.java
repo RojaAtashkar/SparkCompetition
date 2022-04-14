@@ -12,7 +12,7 @@ public class Boggle {
         for (int v = 0; v < 8; v++) {
             int k, i1 = i + x[v], j1 = j + y[v];
             for (k = 1; k < l; k++) {
-                if (i1 >= R  i1 < 0  j1 >= C || j1 < 0)
+                if (i1 >= R || i1 < 0 || j1 >= C || j1 < 0)
                 break;
                 if (map[i1][j1] != word.charAt(k))
                     break;
