@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class spark2 {
+public class Boggle {
     static int R, C;
     static int[] x = {-1, -1, -1, 0, 0, 1, 1, 1};
     static int[] y = {-1, 0, 1, -1, 1, -1, 0, 1};
