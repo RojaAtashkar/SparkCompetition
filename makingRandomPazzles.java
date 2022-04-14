@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class makingRandomPazzles {
     public static int [] endPointsWidth = new int[100];
     public static int [] endPointsHeight = new int[100];
     public static int [] startPointsWidth = new int[100];
