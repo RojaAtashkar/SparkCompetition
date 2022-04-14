@@ -1,9 +1,9 @@
+//flowfreeSolver
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
-
 public class Main {
     //public static String[][] graph = new String[20][20];
     public static void main(String[] args) {
@@ -442,7 +442,9 @@ public class Main {
 
             */
        }
-    }/*
+    }
+    //bruteForcemethod(NOT compeleted yet)
+    /*
 
 
     void bruteForce(String[][] graph, int width, int height){
